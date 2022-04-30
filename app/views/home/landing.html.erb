@@ -1,0 +1,31 @@
+<%= stylesheet_link_tag "style" %>
+<div class="main-menu-cont">
+  <div>
+    <div>
+      <button class="menu-cont-1">button</button>
+    </div>
+    <div>
+      <button class="menu-cont-1">button</button>
+    </div>
+    <div>
+      <button class="menu-cont-1">button</button>
+    </div>
+    <div>
+      <button class="menu-cont-1">button</button>
+    </div>
+  </div>
+  <div class="right-cont">
+    <div class="dashboard-cont">
+      <p>dashboard</p>
+    </div>
+    <div class="down-cont">
+      <div class="leave-cont">
+        <p>leave</p>
+      </div>
+      <div class="holiday-cont">
+        <p>holidays</p>
+      </div>
+    </div>
+  </div>
+</div>
+<%= column_chart Employee.group_by_day(:created_at).count %>

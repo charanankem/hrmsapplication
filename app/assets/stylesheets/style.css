@@ -1,0 +1,91 @@
+.login-head{
+    text-align: center;
+    color: darkred;
+    text-decoration: underline;
+    font-family: fantasy;
+    margin-top: 5px;
+}
+.main-login-cont{
+    background-image: linear-gradient(to right, rgb(160, 134, 95), rgb(161, 142, 34),lightskyblue);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sub-login-cont{
+    background-color: white;
+    width: 40vw;
+    height: 50vh;
+    border-radius: 20px;
+}
+.field2{
+    text-align: center;
+    color: brown;
+    font-size: medium;
+    font-weight: bold;
+    margin: 10px;
+
+}
+.navigation-button{
+    border-radius: 80px;
+    margin-right: 10px;
+    color: white;
+    background-color: rgb(187, 116, 116);
+    border-style: none;
+    height: 40px;
+    width: 40px;
+}
+.list-container{
+    text-align: center;
+}
+.home-main-cont{
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(221, 231, 231), rgb(188, 197, 179),lightskyblue);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home-para-1{
+    font-size: 30px;
+    color: white;
+}
+.main-menu-cont{
+    display: flex;
+    flex-direction: row;
+}
+.menu-cont-1{
+    background-color: navy;
+    width: 20vw;
+    height: 25vh;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.dashboard-cont{
+    background-color: navy;
+    height: 50vh;
+    width: 80vw;
+    text-align: center;
+}
+.leave-cont{
+    background-color: navy;
+    height: 40vh;
+    width: 40vw;
+    text-align: center;
+}
+.holiday-cont{
+    background-color: rgb(150, 150, 150);
+    height: 40vh;
+    width: 40vw;
+    text-align: center;
+}
+.down-cont{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}

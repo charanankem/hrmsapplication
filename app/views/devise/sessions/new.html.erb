@@ -1,0 +1,24 @@
+<%= stylesheet_link_tag "style" %>
+    <div class= "main-login-cont">
+    <div class="sub-login-cont">
+      <h1 class="login-head">Log in</h1>
+      <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+      <div class="field2">
+        <%= f.label :email %><br />
+        <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+      </div>
+              
+      <div class="field2">
+        <%= f.label :password %><br />
+        <%= f.password_field :password, autocomplete: "current-password" %>
+      </div>    
+      <div class="actions field2">
+        <%= f.submit "Log in" %>
+      </div>
+      <% end %>
+      <div class="field2">
+      <%= render "devise/shared/links" %>       
+    </div>
+    </div>
+    </div>
+  
